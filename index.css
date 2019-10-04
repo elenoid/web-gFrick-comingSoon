@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Noteworthy Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Noteworthy Light'), url('../fonts/Noteworthy-Lt.woff') format('woff');
+}
+
+h1,h2,h3,h4{
+  font-family: 'Noteworthy Light';
+  font-size: 3.5rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 63.9375em) {
+  h1,h2,h3,h4{
+    font-size: 2.5rem;
+  }
+
+}
+
+body{
+  position: relative;
+  background-color: #ffffe7;
+}
+div{
+  margin-top: 25vh;
+  position: absolute;
+  transform: translate(-50%);
+  width: 80%;
+  left: 50%;
+}
+
+img{
+  width: 100%;
+  background-size: contain;
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
